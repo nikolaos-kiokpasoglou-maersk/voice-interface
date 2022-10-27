@@ -14,7 +14,7 @@ namespace demo.maersk.IntentHandlers
 
             response.Response.ShouldEndSession = false;
 
-            return await Task.FromResult(response));
+            return await Task.FromResult(response);
         }
     }
 }
