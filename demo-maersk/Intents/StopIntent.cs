@@ -5,16 +5,14 @@ using System.Threading.Tasks;
 
 namespace demo.maersk.IntentHandlers
 {
-    public static class HelpIntent
+    public static class StopIntent
     {
         public static async Task<SkillResponse> Handler(IntentRequest request)
         {
             var response = ResponseBuilder.Tell(
-                new PlainTextOutputSpeech("Try saying, where is my maersk shipment one two five four five two."));
+                new PlainTextOutputSpeech("Thank you for using Maersk facts."));
 
-            response.Response.ShouldEndSession = false;
-
-            return await Task.FromResult(response));
+            return await Task.FromResult(response);
         }
     }
 }

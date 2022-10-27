@@ -30,14 +30,14 @@ namespace demo.maersk.Intents
 
         private static IDictionary<string, Func<Shipment, string>> EventResponseMap = new Dictionary<string, Func<Shipment, string>>
         {
-            { Events[0], x => $"{ResponseMessagePrefix} {x.ShipmentNo} is now loaded in {x.Origin}" },
-            { Events[1], x => $"{ResponseMessagePrefix} {x.ShipmentNo} is now sailing from {x.Origin}" },
-            { Events[2], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has now reached destination in {x.ImportCountry}" },
-            { Events[3], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has now unloaded in {x.ImportCountry}" },
-            { Events[4], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has now gated in {x.ImportCountry}" },
-            { Events[5], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has now gated out in {x.ImportCountry}" },
-            { Events[6], x => $"{ResponseMessagePrefix} {x.ShipmentNo} is now enroute to delivery" },
-            { Events[7], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has now delivered" },
+            { Events[0], x => $"{ResponseMessagePrefix} {x.ShipmentNo} is now loaded in {x.Origin}." },
+            { Events[1], x => $"{ResponseMessagePrefix} {x.ShipmentNo} is now sailing from {x.Origin}." },
+            { Events[2], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has now reached destination in {x.ImportCountry}." },
+            { Events[3], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has now unloaded in {x.ImportCountry}." },
+            { Events[4], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has now gated in {x.ImportCountry}." },
+            { Events[5], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has now gated out in {x.ImportCountry}." },
+            { Events[6], x => $"{ResponseMessagePrefix} {x.ShipmentNo} is now enroute to delivery." },
+            { Events[7], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has now delivered." },
             { Events[8], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has transport plan changes, would you like to reach out to your Maersk representative for more details?" },
         };
 
@@ -45,13 +45,15 @@ namespace demo.maersk.Intents
         {
             var shipmentNo = request?.Intent.Slots.FirstOrDefault(s => s.Key == "shipmentNo").Value?.Value;
 
-            var response = shipmentNo is null 
-                ? "Sorry, I did not recognize your shipment number, please try again"
+            var shipmentStatus = shipmentNo is null 
+                ? "Sorry, I did not recognize your shipment number, please try again."
                 : await GetResponse(shipmentNo);
 
-            var speech = new SsmlOutputSpeech($"<speak>{response}</speak>");
+            var response = ResponseBuilder.Tell(new PlainTextOutputSpeech(shipmentStatus));
 
-            return ResponseBuilder.TellWithCard(speech, ResponseMessagePrefix, $"{response}");
+            response.Response.ShouldEndSession = false;
+            
+            return response;
         }
 
         private static async Task<string> GetResponse(string shipmentNo)
@@ -59,7 +61,7 @@ namespace demo.maersk.Intents
             var shipment = await GetShipment(shipmentNo);
 
             return shipment is null
-                ? "Sorry, I could not find any information for this shipment number, please try again"
+                ? "Sorry, I could not find any information for this shipment number, please try again."
                 : EventResponseMap[PickRandomEvent()].Invoke(shipment);
         }
 

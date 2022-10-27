@@ -2,7 +2,6 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
-using Microsoft.Extensions.Logging;
 using Alexa.NET.Request.Type;
 using Alexa.NET.Response;
 using System.Collections.Generic;
@@ -21,6 +20,7 @@ namespace demo.Maersk
             new Dictionary<string, Func<IntentRequest, Task<SkillResponse>>>
             {
                 {"AMAZON.HelpIntent", HelpIntent.Handler},
+                {"AMAZON.StopIntent", StopIntent.Handler},
                 {"shipmentStatus", ShipmentStatus.Handler},
             };
 
@@ -29,25 +29,26 @@ namespace demo.Maersk
         [FunctionName(nameof(Entrypoint))]
         public static async Task<SkillResponse> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] 
-            HttpRequest req,
-            ILogger log)
+            HttpRequest req)
         {
             var requestBody = await req.ReadAsStringAsync();
 
             var skillRequest = JsonConvert.DeserializeObject<SkillRequest>(requestBody);
 
-            log.LogInformation(skillRequest.Request.Type);
-
             var requestType = skillRequest.GetRequestType();
 
             if (requestType == typeof(LaunchRequest))
-                return ResponseBuilder.Tell(LaunchMessage);
+            {
+                var response = ResponseBuilder.Tell(new PlainTextOutputSpeech(LaunchMessage));
+
+                response.Response.ShouldEndSession = false;
+
+                return response;
+            }
 
             if (requestType != typeof(IntentRequest)) return DontKnow();
 
             var intentRequest = skillRequest.Request as IntentRequest;
-
-            log.LogInformation(intentRequest.Intent.Name);
 
             return IntentHandlers.TryGetValue(intentRequest.Intent.Name, out var handler)
                 ? await handler.Invoke(intentRequest)
