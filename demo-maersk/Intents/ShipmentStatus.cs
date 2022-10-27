@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace demo.maersk.Intents
@@ -73,6 +74,13 @@ namespace demo.maersk.Intents
             => Events[new Random().Next(0, Events.Count)];
 
         private static async Task<ShipmentsDto> LoadShipmentsData()
-            => JsonConvert.DeserializeObject<ShipmentsDto>(await File.ReadAllTextAsync("shipments.json"));
+        {
+            var binDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            
+            var rootDirectory = Path.GetFullPath(Path.Combine(binDirectory, ".."));
+            
+            return JsonConvert.DeserializeObject<ShipmentsDto>(
+                await File.ReadAllTextAsync(Path.Combine(rootDirectory, "shipments.json")));
+        }
     }
 }
