@@ -43,6 +43,8 @@ namespace demo.Maersk
 
                 response.Response.ShouldEndSession = false;
 
+                response.Response.Reprompt = new Reprompt("Try asking, where is my maersk shipment, followed by a number.");
+
                 return response;
             }
 
@@ -60,9 +62,7 @@ namespace demo.Maersk
         {
             const string DontKnowMessage = "Sorry, I am not able to help you with this request";
 
-            var dontKnow = new SsmlOutputSpeech(DontKnowMessage);
-
-            return ResponseBuilder.TellWithCard(dontKnow, "Sorry :(", DontKnowMessage);
+            return ResponseBuilder.Tell(new PlainTextOutputSpeech(DontKnowMessage));
         }
     }
 }
