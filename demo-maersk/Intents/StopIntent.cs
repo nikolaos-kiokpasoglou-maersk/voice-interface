@@ -10,7 +10,7 @@ namespace demo.maersk.IntentHandlers
         public static async Task<SkillResponse> Handler(IntentRequest request)
         {
             var response = ResponseBuilder.Tell(
-                new PlainTextOutputSpeech("Thank you for using Maersk facts."));
+                new PlainTextOutputSpeech("Thank you for using this Maersk service."));
 
             return await Task.FromResult(response);
         }

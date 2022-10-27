@@ -52,7 +52,8 @@ namespace demo.maersk.Intents
             var response = ResponseBuilder.Tell(new PlainTextOutputSpeech(shipmentStatus));
 
             response.Response.ShouldEndSession = false;
-            
+            response.Response.Reprompt = shipmentNo is not null ? new Reprompt("Would you like me to repeat the information?") : null;
+
             return response;
         }
 
