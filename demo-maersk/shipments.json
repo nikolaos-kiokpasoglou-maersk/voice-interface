@@ -1,0 +1,3784 @@
+{
+    "Shipments": [
+        {
+            "ShipmentNo": "1KT125452",
+            "ContainersCount": "18",
+            "Origin": "Bata, Equatorial Guinea",
+            "ImportCountry": "China",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 13:34:37",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT157791",
+            "ContainersCount": "25",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Vietnam",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 20:50:10",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT187084",
+            "ContainersCount": "16",
+            "Origin": "Tema, Ghana",
+            "ImportCountry": "China",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 15:21:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT206059",
+            "ContainersCount": "25",
+            "Origin": "Ziguinchor, Senegal",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 13:09:09",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT206059",
+            "ContainersCount": "25",
+            "Origin": "Ziguinchor, Senegal",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 20:50:44",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT224244",
+            "ContainersCount": "15",
+            "Origin": "Tema, Ghana",
+            "ImportCountry": "China",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 15:21:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT259121",
+            "ContainersCount": "22",
+            "Origin": "Tema, Ghana",
+            "ImportCountry": "Vietnam",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 15:21:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT269823",
+            "ContainersCount": "19",
+            "Origin": "Freetown, Sierra Leone",
+            "ImportCountry": "United Arab Emirates",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 13:36:59",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT269823",
+            "ContainersCount": "25",
+            "Origin": "Freetown, Sierra Leone",
+            "ImportCountry": "United Arab Emirates",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 17:45:13",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT288275",
+            "ContainersCount": "14",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Nigeria",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:11:22",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT288527",
+            "ContainersCount": "24",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Nigeria",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:10:47",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT292681",
+            "ContainersCount": "20",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "Nigeria",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 11:30:48",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT293211",
+            "ContainersCount": "18",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Korea, South",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 15:21:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT295414",
+            "ContainersCount": "20",
+            "Origin": "Freetown, Sierra Leone",
+            "ImportCountry": "Cameroon",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 13:37:19",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT295414",
+            "ContainersCount": "12",
+            "Origin": "Freetown, Sierra Leone",
+            "ImportCountry": "Cameroon",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 17:45:13",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT300095",
+            "ContainersCount": "19",
+            "Origin": "Freetown, Sierra Leone",
+            "ImportCountry": "Cameroon",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 13:36:35",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT300096",
+            "ContainersCount": "24",
+            "Origin": "Freetown, Sierra Leone",
+            "ImportCountry": "Cameroon",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 13:37:06",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT30701B",
+            "ContainersCount": "13",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Mexico",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:44:48",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT309757",
+            "ContainersCount": "22",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Peru",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 21:41:42",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT309761",
+            "ContainersCount": "12",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Peru",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:11:19",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT315574",
+            "ContainersCount": "17",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Mauritania",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:11:19",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT320853",
+            "ContainersCount": "18",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Peru",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 21:44:47",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT322159",
+            "ContainersCount": "16",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Nigeria",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "11/04/2022 16:11:19",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT322416",
+            "ContainersCount": "12",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Nigeria",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:11:03",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT330591",
+            "ContainersCount": "10",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Nigeria",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:10:55",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT330592",
+            "ContainersCount": "13",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Nigeria",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:09:53",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT331169",
+            "ContainersCount": "21",
+            "Origin": "Douala, Cameroon",
+            "ImportCountry": "Japan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 13:42:13",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT331169",
+            "ContainersCount": "14",
+            "Origin": "Douala, Cameroon",
+            "ImportCountry": "Japan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 23:35:18",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT331169",
+            "ContainersCount": "11",
+            "Origin": "Douala, Cameroon",
+            "ImportCountry": "Japan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 14:19:43",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT331550",
+            "ContainersCount": "10",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Peru",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:11:19",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT337489",
+            "ContainersCount": "23",
+            "Origin": "Matadi, Congo, Dem. Rep. of",
+            "ImportCountry": "Reunion",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 14:15:01",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT337858",
+            "ContainersCount": "25",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Peru",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:10:34",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT338487",
+            "ContainersCount": "16",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Turkey",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:10:39",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT338514",
+            "ContainersCount": "25",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Peru",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 01:46:35",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT338520",
+            "ContainersCount": "20",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Peru",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:44:49",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT340129",
+            "ContainersCount": "24",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Indonesia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 14:28:22",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT340129",
+            "ContainersCount": "23",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Indonesia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 19:19:14",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT340223",
+            "ContainersCount": "23",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Nigeria",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "15/04/2022 19:19:14",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT340224",
+            "ContainersCount": "14",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Nigeria",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:11:27",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT340274",
+            "ContainersCount": "15",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Dominican Republic",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:44:53",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT340274",
+            "ContainersCount": "10",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Dominican Republic",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 20:51:41",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT340274",
+            "ContainersCount": "11",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Dominican Republic",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 12:54:16",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT346606",
+            "ContainersCount": "22",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Angola",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:09:46",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT346685",
+            "ContainersCount": "12",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Angola",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:10:21",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT355731",
+            "ContainersCount": "20",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "United States",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 14:18:48",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT357567",
+            "ContainersCount": "19",
+            "Origin": "Dakar, Senegal",
+            "ImportCountry": "Japan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 10:47:15",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT357656",
+            "ContainersCount": "19",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Latvia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 23:53:00",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT358786",
+            "ContainersCount": "25",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Georgia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 15:02:55",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT360039",
+            "ContainersCount": "11",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Gambia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 00:27:36",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT36003A",
+            "ContainersCount": "12",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Gambia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 00:19:56",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT360505",
+            "ContainersCount": "21",
+            "Origin": "CargoType",
+            "ImportCountry": "CargoType",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "12/04/2022 07:19:20",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT360506",
+            "ContainersCount": "18",
+            "Origin": "Douala, Cameroon",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 11:43:47",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT361670",
+            "ContainersCount": "19",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 14:24:55",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT361670",
+            "ContainersCount": "24",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 05:02:13",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT361706",
+            "ContainersCount": "11",
+            "Origin": "Dakar, Senegal",
+            "ImportCountry": "Vietnam",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 09:08:46",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT366178",
+            "ContainersCount": "19",
+            "Origin": "Onne, Nigeria",
+            "ImportCountry": "Nicaragua",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 21:00:52",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT367122",
+            "ContainersCount": "24",
+            "Origin": "Tema, Ghana",
+            "ImportCountry": "United States",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 22:48:09",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT367122",
+            "ContainersCount": "15",
+            "Origin": "Tema, Ghana",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 10:29:44",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT372212",
+            "ContainersCount": "19",
+            "Origin": "CargoType",
+            "ImportCountry": "CargoType",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "12/04/2022 07:20:41",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT372254",
+            "ContainersCount": "19",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "Australia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 12:54:16",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT373841",
+            "ContainersCount": "12",
+            "Origin": "Bamako, Mali",
+            "ImportCountry": "China",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "12/04/2022 13:06:09",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT373841",
+            "ContainersCount": "18",
+            "Origin": "Bamako, Mali",
+            "ImportCountry": "China",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "12/04/2022 15:21:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT373844",
+            "ContainersCount": "24",
+            "Origin": "Bamako, Mali",
+            "ImportCountry": "China",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "12/04/2022 13:06:58",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT373844",
+            "ContainersCount": "10",
+            "Origin": "Bamako, Mali",
+            "ImportCountry": "China",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "12/04/2022 15:21:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT373850",
+            "ContainersCount": "13",
+            "Origin": "Bamako, Mali",
+            "ImportCountry": "China",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "12/04/2022 13:00:01",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT373850",
+            "ContainersCount": "17",
+            "Origin": "Bamako, Mali",
+            "ImportCountry": "China",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "12/04/2022 15:21:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT374025",
+            "ContainersCount": "21",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "Finland",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 13:56:51",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT374027",
+            "ContainersCount": "16",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "Finland",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 13:56:49",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT374029",
+            "ContainersCount": "11",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "Finland",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 13:56:42",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT374843",
+            "ContainersCount": "21",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Peru",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 21:25:45",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT375877",
+            "ContainersCount": "12",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 12:43:57",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT375881",
+            "ContainersCount": "20",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 14:25:22",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT375881",
+            "ContainersCount": "13",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 05:02:21",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT375883",
+            "ContainersCount": "13",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 04:46:35",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT375885",
+            "ContainersCount": "17",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 04:46:39",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT375973",
+            "ContainersCount": "14",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Chile",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 01:47:14",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT377929",
+            "ContainersCount": "24",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 20:51:15",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT379619",
+            "ContainersCount": "10",
+            "Origin": "Nouadhibou, Mauritania",
+            "ImportCountry": "China",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 20:41:53",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT379727",
+            "ContainersCount": "24",
+            "Origin": "Matadi, Congo, Dem. Rep. of",
+            "ImportCountry": "Pakistan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:11:19",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT379741",
+            "ContainersCount": "14",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 15:16:39",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT379863",
+            "ContainersCount": "19",
+            "Origin": "Matadi, Congo, Dem. Rep. of",
+            "ImportCountry": "Togo",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 17:54:47",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT379872",
+            "ContainersCount": "17",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "United Kingdom",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 12:02:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT379872",
+            "ContainersCount": "13",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "United Kingdom",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 19:21:22",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT379872",
+            "ContainersCount": "25",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "United Kingdom",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 14:46:56",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT380361",
+            "ContainersCount": "23",
+            "Origin": "Matadi, Congo, Dem. Rep. of",
+            "ImportCountry": "Pakistan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 21:01:00",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT382393",
+            "ContainersCount": "25",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Jamaica",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 20:03:50",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT383233",
+            "ContainersCount": "24",
+            "Origin": "Onne, Nigeria",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 16:33:01",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT383374",
+            "ContainersCount": "18",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 14:31:07",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT383374",
+            "ContainersCount": "24",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 05:02:22",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT383488",
+            "ContainersCount": "18",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 20:31:20",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT383488",
+            "ContainersCount": "24",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 21:01:00",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT383711",
+            "ContainersCount": "19",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 20:31:20",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT385248",
+            "ContainersCount": "17",
+            "Origin": "Tema, Ghana",
+            "ImportCountry": "Peru",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 22:59:31",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT385341",
+            "ContainersCount": "24",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 04:54:10",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT387097",
+            "ContainersCount": "24",
+            "Origin": "Bamako, Mali",
+            "ImportCountry": "Germany",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 13:07:34",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT387217",
+            "ContainersCount": "21",
+            "Origin": "Kampala, Uganda",
+            "ImportCountry": "Netherlands",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 17:40:03",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT387220",
+            "ContainersCount": "20",
+            "Origin": "Kampala, Uganda",
+            "ImportCountry": "Netherlands",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 17:32:11",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT387576",
+            "ContainersCount": "14",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Peru",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 22:59:29",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT390412",
+            "ContainersCount": "13",
+            "Origin": "Monrovia, Liberia",
+            "ImportCountry": "China",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 17:39:57",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT391025",
+            "ContainersCount": "10",
+            "Origin": "Onne, Nigeria",
+            "ImportCountry": "Saudi Arabia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 15:21:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT391026",
+            "ContainersCount": "11",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Saudi Arabia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 15:53:13",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT391173",
+            "ContainersCount": "17",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 21:01:00",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT391177",
+            "ContainersCount": "19",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 04:46:30",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT391178",
+            "ContainersCount": "14",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 04:46:32",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT391573",
+            "ContainersCount": "23",
+            "Origin": "Onne, Nigeria",
+            "ImportCountry": "Latvia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 15:33:36",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT392122",
+            "ContainersCount": "25",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Madagascar",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 00:26:09",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT392400",
+            "ContainersCount": "23",
+            "Origin": "Douala, Cameroon",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:11:19",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT392400",
+            "ContainersCount": "25",
+            "Origin": "Douala, Cameroon",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 15:14:24",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT393058",
+            "ContainersCount": "12",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "China",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 12:43:00",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT393058",
+            "ContainersCount": "23",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "China",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 13:39:23",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT393067",
+            "ContainersCount": "13",
+            "Origin": "Matadi, Congo, Dem. Rep. of",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 17:45:13",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT393072",
+            "ContainersCount": "21",
+            "Origin": "Matadi, Congo, Dem. Rep. of",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:11:19",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT393395",
+            "ContainersCount": "17",
+            "Origin": "Onne, Nigeria",
+            "ImportCountry": "Latvia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 15:33:58",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT393795",
+            "ContainersCount": "25",
+            "Origin": "Onne, Nigeria",
+            "ImportCountry": "Latvia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 15:33:54",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT394490",
+            "ContainersCount": "11",
+            "Origin": "Matadi, Congo, Dem. Rep. of",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 20:18:31",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT394595",
+            "ContainersCount": "12",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Mozambique",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 13:41:05",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT394595",
+            "ContainersCount": "21",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Mozambique",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 17:48:44",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT395210",
+            "ContainersCount": "17",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Sierra Leone",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 11:30:59",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT398980",
+            "ContainersCount": "10",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Japan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 16:43:59",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT398980",
+            "ContainersCount": "14",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Japan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 19:05:07",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT398982",
+            "ContainersCount": "20",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Japan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 16:45:31",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT398982",
+            "ContainersCount": "15",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Japan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 19:07:21",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT399415",
+            "ContainersCount": "12",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 04:46:45",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT399420",
+            "ContainersCount": "15",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 17:36:21",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT401467",
+            "ContainersCount": "13",
+            "Origin": "Tema, Ghana",
+            "ImportCountry": "Vietnam",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 18:24:29",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT402745",
+            "ContainersCount": "21",
+            "Origin": "Nouakchott, Mauritania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 20:13:13",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT402753",
+            "ContainersCount": "20",
+            "Origin": "Nouakchott, Mauritania",
+            "ImportCountry": "Oman",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 13:03:07",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT402753",
+            "ContainersCount": "21",
+            "Origin": "Nouakchott, Mauritania",
+            "ImportCountry": "Oman",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 23:31:37",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT402753",
+            "ContainersCount": "14",
+            "Origin": "Nouakchott, Mauritania",
+            "ImportCountry": "Oman",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 20:13:13",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT403129",
+            "ContainersCount": "25",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Belgium",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 17:26:04",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT403345",
+            "ContainersCount": "24",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Mexico",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 15:11:06",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT403485",
+            "ContainersCount": "16",
+            "Origin": "Banjul, Gambia",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 14:56:31",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT403497",
+            "ContainersCount": "13",
+            "Origin": "Monrovia, Liberia",
+            "ImportCountry": "Liberia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 12:39:32",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT403531",
+            "ContainersCount": "14",
+            "Origin": "Pointe Noire, Congo",
+            "ImportCountry": "Mexico",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 14:48:10",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404087",
+            "ContainersCount": "22",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 20:50:24",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404148",
+            "ContainersCount": "11",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "United States",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:44:47",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404148",
+            "ContainersCount": "14",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "United States",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 15:14:24",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404156",
+            "ContainersCount": "20",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 18:47:34",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404294",
+            "ContainersCount": "13",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 16:29:50",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404296",
+            "ContainersCount": "16",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 17:02:46",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404297",
+            "ContainersCount": "15",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 17:02:54",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404299",
+            "ContainersCount": "19",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 16:27:34",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404309",
+            "ContainersCount": "23",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 16:30:45",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404717",
+            "ContainersCount": "14",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 14:00:27",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT404870",
+            "ContainersCount": "25",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 14:23:33",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT405050",
+            "ContainersCount": "24",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 18:01:13",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT405559",
+            "ContainersCount": "20",
+            "Origin": "Onne, Nigeria",
+            "ImportCountry": "Lithuania",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 15:21:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT405560",
+            "ContainersCount": "16",
+            "Origin": "Onne, Nigeria",
+            "ImportCountry": "Estonia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 14:45:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT405760",
+            "ContainersCount": "17",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Tanzania",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 15:23:12",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT405767",
+            "ContainersCount": "14",
+            "Origin": "Banjul, Gambia",
+            "ImportCountry": "Pakistan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 18:01:46",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT405812",
+            "ContainersCount": "23",
+            "Origin": "Kribi, Cameroon",
+            "ImportCountry": "China",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 20:22:32",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT406858",
+            "ContainersCount": "10",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Pakistan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 18:10:55",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT407067",
+            "ContainersCount": "10",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 20:18:27",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT407114",
+            "ContainersCount": "13",
+            "Origin": "Douala, Cameroon",
+            "ImportCountry": "United States",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 14:47:15",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT407169",
+            "ContainersCount": "20",
+            "Origin": "CargoType",
+            "ImportCountry": "CargoType",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "13/04/2022 14:26:17",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT407796",
+            "ContainersCount": "11",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 20:18:26",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT407856",
+            "ContainersCount": "19",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Pakistan",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 18:10:46",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT408176",
+            "ContainersCount": "10",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Guatemala",
+            "CargoType": "DRY",
+            "BookingTimestamp": "17/04/2022 13:10:09",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT408292",
+            "ContainersCount": "25",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 14:22:28",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT408297",
+            "ContainersCount": "24",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Malaysia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 21:01:00",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT408675",
+            "ContainersCount": "11",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 21:01:00",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT408816",
+            "ContainersCount": "25",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 16:55:16",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT408819",
+            "ContainersCount": "22",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 17:03:19",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT408832",
+            "ContainersCount": "15",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 20:57:08",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT408838",
+            "ContainersCount": "16",
+            "Origin": "Lome, Togo",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 20:57:09",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT409336",
+            "ContainersCount": "24",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 17:45:13",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT410368",
+            "ContainersCount": "19",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Senegal",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 15:16:56",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT410368",
+            "ContainersCount": "24",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Senegal",
+            "CargoType": "OTHR",
+            "BookingTimestamp": "17/04/2022 14:56:06",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT410526",
+            "ContainersCount": "11",
+            "Origin": "Banjul, Gambia",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 19:41:01",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT411187",
+            "ContainersCount": "22",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "France",
+            "CargoType": "DRY",
+            "BookingTimestamp": "16/04/2022 10:39:09",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT411627",
+            "ContainersCount": "22",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "France",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 18:37:17",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT411796",
+            "ContainersCount": "11",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Belgium",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 17:26:08",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT411799",
+            "ContainersCount": "15",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Belgium",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 17:44:07",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT41196A",
+            "ContainersCount": "16",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 10:27:52",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT412584",
+            "ContainersCount": "16",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Belgium",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 19:40:43",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT412760",
+            "ContainersCount": "22",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Ghana",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 16:20:40",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT413066",
+            "ContainersCount": "10",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Ghana",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 16:21:33",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT413143",
+            "ContainersCount": "13",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "South Africa",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 00:28:25",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT41314A",
+            "ContainersCount": "17",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "South Africa",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 00:26:06",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT413192",
+            "ContainersCount": "23",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Mozambique",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 00:07:18",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT413192",
+            "ContainersCount": "11",
+            "Origin": "Abidjan, Ivory Coast",
+            "ImportCountry": "Mozambique",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 20:13:00",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT413626",
+            "ContainersCount": "24",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Togo",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 16:20:40",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT413661",
+            "ContainersCount": "23",
+            "Origin": "Monrovia, Liberia",
+            "ImportCountry": "Mauritania",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 20:50:58",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT414005",
+            "ContainersCount": "19",
+            "Origin": "Beirut, Lebanon",
+            "ImportCountry": "Liberia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 11:35:40",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT414132",
+            "ContainersCount": "13",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Mexico",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 20:51:41",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT414577",
+            "ContainersCount": "13",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "United States",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 23:37:54",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT414690",
+            "ContainersCount": "12",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 11:35:17",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT415444",
+            "ContainersCount": "24",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 10:28:00",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT416237",
+            "ContainersCount": "14",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Indonesia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 17:24:11",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT416915",
+            "ContainersCount": "24",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 14:05:47",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT416918",
+            "ContainersCount": "13",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 11:29:29",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT417247",
+            "ContainersCount": "19",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Ghana",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 16:20:35",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT417250",
+            "ContainersCount": "21",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 14:20:24",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT417254",
+            "ContainersCount": "20",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 14:25:37",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT417967",
+            "ContainersCount": "22",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "United Arab Emirates",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 12:32:31",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT417997",
+            "ContainersCount": "13",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Venezuela",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 21:00:57",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT418357",
+            "ContainersCount": "20",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Mexico",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 15:12:02",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT418648",
+            "ContainersCount": "16",
+            "Origin": "Dar es Salaam, Tanzania",
+            "ImportCountry": "India",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 20:50:14",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT419110",
+            "ContainersCount": "19",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:11:19",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT419110",
+            "ContainersCount": "11",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "15/04/2022 16:10:38",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT419905",
+            "ContainersCount": "13",
+            "Origin": "Djibouti, Djibouti",
+            "ImportCountry": "Suriname",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 20:56:34",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT420213",
+            "ContainersCount": "16",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Canada",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 20:57:09",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT420750",
+            "ContainersCount": "19",
+            "Origin": "Takoradi, Ghana",
+            "ImportCountry": "Barbados",
+            "CargoType": "DRY",
+            "BookingTimestamp": "12/04/2022 16:41:58",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT421096",
+            "ContainersCount": "23",
+            "Origin": "Nouadhibou, Mauritania",
+            "ImportCountry": "China",
+            "CargoType": "DRY",
+            "BookingTimestamp": "14/04/2022 15:48:37",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT421097",
+            "ContainersCount": "16",
+            "Origin": "San-Pedro, Ivory Coast",
+            "ImportCountry": "Algeria",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:11:29",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT421097",
+            "ContainersCount": "25",
+            "Origin": "San-Pedro, Ivory Coast",
+            "ImportCountry": "Algeria",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 20:13:48",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT421113",
+            "ContainersCount": "17",
+            "Origin": "Libreville, Gabon",
+            "ImportCountry": "United States",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 23:56:53",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT421126",
+            "ContainersCount": "22",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Italy",
+            "CargoType": "DRY",
+            "BookingTimestamp": "11/04/2022 16:44:45",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT421126",
+            "ContainersCount": "10",
+            "Origin": "Apapa, Nigeria",
+            "ImportCountry": "Italy",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 12:54:16",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        },
+        {
+            "ShipmentNo": "1KT421689",
+            "ContainersCount": "24",
+            "Origin": "Mombasa, Kenya",
+            "ImportCountry": "Indonesia",
+            "CargoType": "DRY",
+            "BookingTimestamp": "13/04/2022 17:24:06",
+            "Events": [
+                "Gated-In", 
+                "Loaded", 
+                "Sailing", 
+                "Reached Destination",
+                "UnLoaded",
+                "Gated-Out",
+                "Enroute to delivery",
+                "Delivered"
+            ]
+        }
+    ]
+}
