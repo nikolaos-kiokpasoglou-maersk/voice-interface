@@ -49,7 +49,7 @@ namespace demo.maersk.Intents
                 ? "Sorry, I did not recognize your shipment number, please try again"
                 : await GetResponse(shipmentNo);
 
-            var speech = new SsmlOutputSpeech(response);
+            var speech = new SsmlOutputSpeech($"<speak>{response}</speak>");
 
             return ResponseBuilder.TellWithCard(speech, ResponseMessagePrefix, $"{response}");
         }
