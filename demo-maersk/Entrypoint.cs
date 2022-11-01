@@ -39,11 +39,9 @@ namespace demo.Maersk
 
             if (requestType == typeof(LaunchRequest))
             {
-                var response = ResponseBuilder.Tell(new PlainTextOutputSpeech(LaunchMessage));
-
-                response.Response.ShouldEndSession = false;
-
-                response.Response.Reprompt = new Reprompt("Try asking, where is my maersk shipment, followed by a number.");
+                var response = ResponseBuilder.Ask(
+                    new PlainTextOutputSpeech(LaunchMessage),
+                    DefaultReprompt());
 
                 return response;
             }
@@ -56,13 +54,17 @@ namespace demo.Maersk
                 ? await handler.Invoke(intentRequest)
                 : DontKnow();
         }
-       
 
         private static SkillResponse DontKnow()
         {
             const string DontKnowMessage = "Sorry, I am not able to help you with this request";
 
-            return ResponseBuilder.Tell(new PlainTextOutputSpeech(DontKnowMessage));
+            return ResponseBuilder.Ask(new PlainTextOutputSpeech(DontKnowMessage), DefaultReprompt());
+        }
+
+        private static Reprompt DefaultReprompt()
+        {
+            return new Reprompt("Try asking, where is my maersk shipment, followed by a number.");
         }
     }
 }

@@ -9,10 +9,8 @@ namespace demo.maersk.IntentHandlers
     {
         public static async Task<SkillResponse> Handler(IntentRequest request)
         {
-            var response = ResponseBuilder.Tell(
-                new PlainTextOutputSpeech("Try asking, where is my maersk shipment, followed by a number.");
-
-            response.Response.ShouldEndSession = false;
+            var response = ResponseBuilder.Ask(
+                new PlainTextOutputSpeech("Try asking, where is my maersk shipment, followed by a number."), default);
 
             return await Task.FromResult(response);
         }

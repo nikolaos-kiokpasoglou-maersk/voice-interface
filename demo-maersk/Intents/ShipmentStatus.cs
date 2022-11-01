@@ -28,7 +28,7 @@ namespace demo.maersk.Intents
             "Transport Plan Changed"
         };
 
-        private static IDictionary<string, Func<Shipment, string>> EventResponseMap = new Dictionary<string, Func<Shipment, string>>
+        private static readonly IDictionary<string, Func<Shipment, string>> EventResponseMap = new Dictionary<string, Func<Shipment, string>>
         {
             { Events[0], x => $"{ResponseMessagePrefix} {x.ShipmentNo} is now loaded in {x.Origin}." },
             { Events[1], x => $"{ResponseMessagePrefix} {x.ShipmentNo} is now sailing from {x.Origin}." },
@@ -49,9 +49,9 @@ namespace demo.maersk.Intents
                 ? "Sorry, I did not recognize your shipment number, please try again."
                 : await GetResponse(shipmentNo);
 
-            var response = ResponseBuilder.Tell(new PlainTextOutputSpeech(shipmentStatus));
-
-            response.Response.ShouldEndSession = false;
+            var response = ResponseBuilder.Ask(
+                new PlainTextOutputSpeech(shipmentStatus),
+                shipmentNo is not null ? new Reprompt("Would you like more information about your shipment?") : default);
 
             return response;
         }
