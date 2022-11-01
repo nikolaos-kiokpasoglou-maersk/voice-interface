@@ -12,6 +12,7 @@ namespace demo.maersk.Intents
     public static class ShipmentStatus
     {
         private const string ResponseMessagePrefix = "Your Maersk shipment";
+        private const string ShipmentNoKey = "shipmentNo";
 
         private static readonly IList<string> Events = new List<string>() 
         {
@@ -42,13 +43,13 @@ namespace demo.maersk.Intents
         public static async Task<SkillResponse> Handler(SkillRequest skillRequest)
         {
             var request = skillRequest.Request as IntentRequest;
-            var shipmentNo = request?.Intent.Slots.FirstOrDefault(s => s.Key == "shipmentNo").Value?.Value;
+            var shipmentNo = request?.Intent.Slots.FirstOrDefault(s => s.Key == ShipmentNoKey).Value?.Value;
 
             var session = skillRequest.Session;
 
             session.Attributes ??= new Dictionary<string, object>();
 
-            session.Attributes["shipmentNo"] = shipmentNo;
+            session.Attributes[ShipmentNoKey] = shipmentNo;
 
             var shipmentStatus = shipmentNo is null 
                 ? "Sorry, I did not recognize your shipment number, please try again."
