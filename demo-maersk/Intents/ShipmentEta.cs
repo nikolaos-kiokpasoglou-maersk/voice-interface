@@ -43,7 +43,7 @@ namespace demo.maersk.Intents
 
             return shipmentNo is null
                 ? "Sorry, I could not find any information for this shipment number, please try again."
-                : $"Your shipment ETA is {eta}";
+                : $"Your shipment ETA is {eta:g}";
         }
     }
 }
