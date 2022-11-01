@@ -13,7 +13,7 @@ namespace demo.maersk.Intents
     {
         private const string ShipmentNoKey = "shipmentNo";
 
-        public static async Task<SkillResponse> Handler(SkillRequest skillRequest)
+        public static Task<SkillResponse> Handler(SkillRequest skillRequest)
         {
             var session = skillRequest.Session;
             session.Attributes.TryGetValue(ShipmentNoKey, out var shipmentNo);
@@ -27,19 +27,19 @@ namespace demo.maersk.Intents
 
             var shipmentStatus = shipmentNo is null
                 ? "Sorry, I did not recognize your shipment number, please try again."
-                : await GetResponse((string)shipmentNo);
+                : GetResponse((string)shipmentNo);
 
             var response = ResponseBuilder.Ask(
                 new PlainTextOutputSpeech(shipmentStatus),
                 shipmentNo is not null ? new Reprompt("Is there anything more you would like to know about this shipment?") : default,
                 session);
 
-            return response;
+            return Task.FromResult(response);
         }
 
-        private static async Task<string> GetResponse(string shipmentNo)
+        private static string GetResponse(string shipmentNo)
         {
-            var eta = new Faker().Date.Recent(-15);
+            var eta = new Faker().Date.SoonOffset(15);
 
             return shipmentNo is null
                 ? "Sorry, I could not find any information for this shipment number, please try again."
