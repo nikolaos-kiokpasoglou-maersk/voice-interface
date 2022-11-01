@@ -26,7 +26,7 @@ namespace demo.maersk.Intents
 
             var shipmentStatus = shipmentNo is null
                 ? "Sorry, I did not recognize your shipment number, please try again."
-                : GetResponse((string)shipmentNo);
+                : GetResponse((string)shipmentNo, request?.Intent.ConfirmationStatus);
 
             var response = ResponseBuilder.Ask(
                 new PlainTextOutputSpeech(shipmentStatus),
@@ -36,9 +36,11 @@ namespace demo.maersk.Intents
             return Task.FromResult(response);
         }
 
-        private static string GetResponse(string shipmentNo)
+        private static string GetResponse(string shipmentNo, string confirmationStatus)
         {
-            return "I have set an alert for this shipment. I will notify you when a status change has happened.";
+            return confirmationStatus == "CONFIRMED"
+                ? "I have set an alert for this shipment. I will notify you when a status change has happened."
+                : "No alert has been set for this shipment.";
         }
     }
 }
