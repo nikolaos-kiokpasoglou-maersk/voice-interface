@@ -16,12 +16,13 @@ namespace demo.Maersk
 {
     public static class Entrypoint
     {
-        private static readonly IDictionary<string, Func<IntentRequest, Task<SkillResponse>>> IntentHandlers =
-            new Dictionary<string, Func<IntentRequest, Task<SkillResponse>>>
+        private static readonly IDictionary<string, Func<SkillRequest, Task<SkillResponse>>> IntentHandlers =
+            new Dictionary<string, Func<SkillRequest, Task<SkillResponse>>>
             {
                 {"AMAZON.HelpIntent", HelpIntent.Handler},
                 {"AMAZON.StopIntent", StopIntent.Handler},
                 {"shipmentStatus", ShipmentStatus.Handler},
+                {"shipmentETA", ShipmentEta.Handler},
             };
 
         private const string LaunchMessage = "Thank you for connecting with Maersk, you can say help anytime to listen to brief instructions on how to use this service";
@@ -51,7 +52,7 @@ namespace demo.Maersk
             var intentRequest = skillRequest.Request as IntentRequest;
 
             return IntentHandlers.TryGetValue(intentRequest.Intent.Name, out var handler)
-                ? await handler.Invoke(intentRequest)
+                ? await handler.Invoke(skillRequest)
                 : DontKnow();
         }
 

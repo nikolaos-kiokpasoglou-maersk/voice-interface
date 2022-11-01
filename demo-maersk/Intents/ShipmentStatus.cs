@@ -1,12 +1,10 @@
 ﻿using Alexa.NET;
+using Alexa.NET.Request;
 using Alexa.NET.Request.Type;
 using Alexa.NET.Response;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Threading.Tasks;
 
 namespace demo.maersk.Intents
@@ -15,7 +13,7 @@ namespace demo.maersk.Intents
     {
         private const string ResponseMessagePrefix = "Your Maersk shipment";
 
-        private static IList<string> Events = new List<string>() 
+        private static readonly IList<string> Events = new List<string>() 
         {
             "Loaded",
             "Sailing",
@@ -41,9 +39,16 @@ namespace demo.maersk.Intents
             { Events[8], x => $"{ResponseMessagePrefix} {x.ShipmentNo} has transport plan changes, would you like to reach out to your Maersk representative for more details?" },
         };
 
-        public static async Task<SkillResponse> Handler(IntentRequest request)
+        public static async Task<SkillResponse> Handler(SkillRequest skillRequest)
         {
+            var request = skillRequest.Request as IntentRequest;
             var shipmentNo = request?.Intent.Slots.FirstOrDefault(s => s.Key == "shipmentNo").Value?.Value;
+
+            var session = skillRequest.Session;
+
+            session.Attributes ??= new Dictionary<string, object>();
+
+            session.Attributes["shipmentNo"] = shipmentNo;
 
             var shipmentStatus = shipmentNo is null 
                 ? "Sorry, I did not recognize your shipment number, please try again."
@@ -51,7 +56,8 @@ namespace demo.maersk.Intents
 
             var response = ResponseBuilder.Ask(
                 new PlainTextOutputSpeech(shipmentStatus),
-                shipmentNo is not null ? new Reprompt("Would you like more information about your shipment?") : default);
+                shipmentNo is not null ? new Reprompt("Is there anything more you would like to know about this shipment?") : default,
+                session);
 
             return response;
         }
@@ -67,22 +73,12 @@ namespace demo.maersk.Intents
 
         private static async Task<Shipment> GetShipment(string shipmentNo)
         {
-            var data = await LoadShipmentsData();
+            var data = await DataHelper.LoadShipmentsData();
 
             return data.Shipments.FirstOrDefault(x => x.ShipmentNo.EndsWith(shipmentNo));
         }
 
         private static string PickRandomEvent()
             => Events[new Random().Next(0, Events.Count)];
-
-        private static async Task<ShipmentsDto> LoadShipmentsData()
-        {
-            var binDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            
-            var rootDirectory = Path.GetFullPath(Path.Combine(binDirectory, ".."));
-            
-            return JsonConvert.DeserializeObject<ShipmentsDto>(
-                await File.ReadAllTextAsync(Path.Combine(rootDirectory, "shipments.json")));
-        }
     }
 }
