@@ -22,7 +22,7 @@ namespace demo.Maersk
                 {"AMAZON.HelpIntent", HelpIntent.Handler},
                 {"AMAZON.StopIntent", StopIntent.Handler},
                 {"shipmentStatus", ShipmentStatus.Handler},
-                {"shipmentETA", ShipmentEta.Handler},
+                {"shipmentNotify", ShipmentNotify.Handler},
             };
 
         private const string LaunchMessage = "Thank you for connecting with Maersk, you can say help anytime to listen to brief instructions on how to use this service";

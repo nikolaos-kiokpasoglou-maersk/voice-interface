@@ -2,14 +2,13 @@
 using Alexa.NET.Request;
 using Alexa.NET.Request.Type;
 using Alexa.NET.Response;
-using Bogus;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace demo.maersk.Intents
 {
-    public static class ShipmentEta
+    public static class ShipmentNotify
     {
         private const string ShipmentNoKey = "shipmentNo";
 
@@ -39,11 +38,7 @@ namespace demo.maersk.Intents
 
         private static string GetResponse(string shipmentNo)
         {
-            var eta = new Faker().Date.SoonOffset(15);
-
-            return shipmentNo is null
-                ? "Sorry, I could not find any information for this shipment number, please try again."
-                : $"Your shipment ETA is {eta:g}";
+            return "I have set an alert for this shipment. I will notify you when a status change has happened.";
         }
     }
 }
