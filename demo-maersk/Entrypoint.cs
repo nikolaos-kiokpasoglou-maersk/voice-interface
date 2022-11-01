@@ -22,6 +22,7 @@ namespace demo.Maersk
                 {"AMAZON.HelpIntent", HelpIntent.Handler},
                 {"AMAZON.StopIntent", StopIntent.Handler},
                 {"shipmentStatus", ShipmentStatus.Handler},
+                {"shipmentETA", ShipmentEta.Handler},
                 {"shipmentNotify", ShipmentNotify.Handler},
             };
 
