@@ -1,10 +1,13 @@
-﻿using Alexa.NET;
+﻿using System;
+using Alexa.NET;
 using Alexa.NET.Request;
 using Alexa.NET.Request.Type;
 using Alexa.NET.Response;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MailKit.Net.Smtp;
+using MimeKit;
 
 namespace demo.maersk.Intents
 {
@@ -24,7 +27,18 @@ namespace demo.maersk.Intents
 
             session.Attributes[ShipmentNoKey] = shipmentNo;
 
-            var shipmentStatus = shipmentNo is null
+            string shipmentStatus;
+
+            if (shipmentNo == null)
+            {
+                shipmentStatus = "Sorry, I did not recognize your shipment number, please try again.";
+            }
+            else
+            {
+                SendMail();
+                shipmentStatus = GetResponse((string)shipmentNo, request?.Intent.ConfirmationStatus);
+            }
+            shipmentStatus = shipmentNo is null
                 ? "Sorry, I did not recognize your shipment number, please try again."
                 : GetResponse((string)shipmentNo, request?.Intent.ConfirmationStatus);
 
@@ -41,6 +55,36 @@ namespace demo.maersk.Intents
             return confirmationStatus == "CONFIRMED"
                 ? "I have set an alert for this shipment. I will notify you when a status change has happened."
                 : "No alert has been set for this shipment.";
+        }
+
+        private static void SendJsonEmail()
+        {
+
+        }
+
+        private static void SendMail()
+        {
+            var mailMessage = new MimeMessage();
+            mailMessage.From.Add(new MailboxAddress("Captain Laura", ""));
+            mailMessage.To.Add(new MailboxAddress("Maersk customer", "siah.derin@fallinhay.com"));
+            mailMessage.Subject = "subject";
+            mailMessage.Body = new TextPart("plain")
+            {
+                Text = "Hello"
+            };
+
+            using var smtpClient = new SmtpClient();
+            smtpClient.Connect("smtp.gmail.com", 465, true);
+            smtpClient.Authenticate("", "");
+            try
+            {
+                smtpClient.Send(mailMessage);
+            }
+            catch (System.Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            smtpClient.Disconnect(true);
         }
     }
 }

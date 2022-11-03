@@ -26,4 +26,10 @@
     <ProjectReference Include="..\demo-maersk\demo.maersk.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Examples\IntentRequest.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
